@@ -20,6 +20,7 @@ call plug#begin('~/.vim/plugged/')
 Plug 'dense-analysis/ale'
 Plug 'neoclide/coc.nvim' 
 Plug 'morhetz/gruvbox'
+Plug 'vim-airline/vim-airline'
 
 " ALE
 let g:ale_echo_msg_error_str = 'E'
