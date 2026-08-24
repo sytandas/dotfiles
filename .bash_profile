@@ -19,15 +19,11 @@ PS1="$(echo "$PS1" | sed 's/(base) //')"
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
 
-# Homebrew
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
 # ----------------
 # Aliases
 # ----------------
 alias ls='ls --color'
 alias ll='ls -la'
-alias sshr='ssh dl'
 
 # ----------------
 # pyenv setup
