@@ -28,7 +28,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 alias ls='ls --color'
 alias ll='ls -la'
 alias sshr='ssh dl'
-alias sshj='ssh -L 8888:localhost:8888 es@192.168.0.117'
 
 # ----------------
 # pyenv setup
